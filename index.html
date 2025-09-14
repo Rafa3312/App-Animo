@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Descargar Mi App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f4f6f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px 10px;
+      font-size: 1.5rem;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    .btn {
+      display: inline-block;
+      margin: 20px;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: transform 0.2s ease-in-out;
+    }
+    .btn:hover {
+      transform: scale(1.05);
+    }
+    .android {
+      background: #3DDC84;
+    }
+    .ios {
+      background: #000;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>📲 Mi Aplicación Nao Vital</header>
+  
+  <div class="container">
+    <a class="btn android" href="app-release.apk" download>⬇️ Descargar para Android</a>
+    <a class="btn ios" href="https://testflight.apple.com/join/XXXX">🍏 Descargar para iOS (TestFlight)</a>
+  </div>
+
+  <footer>
+    &copy; 2025 - Mi Aplicación | Distribución para pruebas
+  </footer>
+</body>
+</html>
